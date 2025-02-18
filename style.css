@@ -50,7 +50,9 @@ a {
     font-size: 24px;
     margin-left: 15px;
 }
-
+.tituloh1{
+    font-size: 4rem;
+}
 
 .navegacion__elemento a .vinculo{
     font-size: 0.9rem;
@@ -113,7 +115,10 @@ a {
     flex-shrink: 1;
     flex-flow: wrap;
     gap: 100px;
-    
+    align-items: center;    
+}
+.habilidades__icono{
+    height: 50px;
 }
 
 /*------------------------------ Sección de Aficiones --------------------------------*/
@@ -140,8 +145,8 @@ a {
     color: #33cccc;
 }
 .aficiones__icono{
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
 }
 /*------------------------------ Sección de formacion academica --------------------------------*/
 .formacion{
@@ -193,6 +198,7 @@ a {
 .proyectos__contenedor__item{
     display: flex;
     justify-content: space-between;
+    gap: 5px;
 }
 .proyectos__titulo{
     color: var(--color-de-tipografia2);
@@ -251,6 +257,9 @@ a {
     background: var(--color-de-link);
     color: var(--color-de-fondo);
     box-shadow: 0 3px 8px #050505;
+}
+.imagen___proyecto{
+    height: 300px;
 }
 /*------------------------------ Sección de Contacto ---------------------------------*/
 .contacto{
